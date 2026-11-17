@@ -1,0 +1,54 @@
+
+---
+const handle = "0xsalari";
+const bio = "Hello, I'm Salar";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={bio} />
+    <title>{handle}</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fafafa;
+        color: #171717;
+        font-family: system-ui, sans-serif;
+      }
+
+      main {
+        text-align: center;
+        padding: 2rem;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        letter-spacing: -0.05em;
+        margin: 0;
+      }
+
+      p {
+        color: #737373;
+        font-size: 1rem;
+        margin-top: 0.75rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>{handle}</h1>
+      <p>{bio}</p>
+    </main>
+  </body>
+</html>
